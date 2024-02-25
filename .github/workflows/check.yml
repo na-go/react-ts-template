@@ -28,7 +28,7 @@ jobs:
         with:
           node-version-file: 'package.json'
           cache: npm
-      - uses: ./.github/workflows/modules/action
+      - uses: ./.github/workflows/modules
       - run: npm ci
       - run: npm run type-check
 
@@ -44,7 +44,7 @@ jobs:
         with:
           node-version-file: 'package.json'
           cache: npm
-      - uses: ./.github/workflows/modules/action
+      - uses: ./.github/workflows/modules
       - run: npm ci
       - run: npm run lint
 
@@ -60,7 +60,7 @@ jobs:
         with:
           node-version-file: 'package.json'
           cache: npm
-      - uses: ./.github/workflows/modules/action
+      - uses: ./.github/workflows/modules
       - run: npm ci
       - run: |
           npm run test
