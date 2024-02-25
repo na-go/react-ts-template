@@ -1,8 +1,7 @@
-import { style } from "@vanilla-extract/css";
+import { style } from '@vanilla-extract/css'
 
-export const root = style({});
+export const root = style({})
 
-export const main = style({
-});
+export const main = style({})
 
-export const title = style({});
+export const title = style({})

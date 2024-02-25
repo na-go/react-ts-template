@@ -1,8 +1,9 @@
-import { memo } from 'react';
+import { memo } from 'react'
 
-import * as styles from './styles.css';
+import * as styles from './styles.css'
 
 const App = () => {
+
   return (
     <div className={styles.root}>
       <main className={styles.main}>
@@ -12,4 +13,4 @@ const App = () => {
   )
 }
 
-export default memo(App);
+export default memo(App)
