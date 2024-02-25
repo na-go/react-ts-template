@@ -6,5 +6,5 @@ export function division(numerator: number | null, denominator: number | null): 
   if (typeof numerator !== "number" || typeof denominator !== "number") return null;
   if (denominator === 0) return null;
 
-  return numerator / denominator;
+    return numerator / denominator;
 }
