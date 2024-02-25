@@ -3,7 +3,6 @@ import { memo } from 'react'
 import * as styles from './styles.css'
 
 const App = () => {
-
   return (
     <div className={styles.root}>
       <main className={styles.main}>
