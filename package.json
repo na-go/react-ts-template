@@ -12,7 +12,7 @@
     "fmt": "npm-run-all -s fmt:*",
     "fmt:eslint": "eslint --fix .",
     "fmt:prettier": "prettier --write .",
-    "typecheck": "tsc --noEmit",
+    "type-check": "tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage"
