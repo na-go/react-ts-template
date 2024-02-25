@@ -8,3 +8,5 @@ runs:
       with:
         path: '**/node_modules'
         key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
+        node-version-file: 'package.json'
+        cache: npm
